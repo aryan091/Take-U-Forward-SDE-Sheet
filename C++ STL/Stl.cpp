@@ -258,7 +258,7 @@ void explainMap(){
     m.insert({5, 50});
     m.emplace(6, 60);
 
-    cout << m.size() << " " << m.empty() << " " << it->first << endl;
+    cout << m.size() << " " << m.empty() << " " << it->second << endl;
 }
 
 void explainMultiMap()
